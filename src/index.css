@@ -1,0 +1,284 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #10b981;
+  --color-primaryDark: #047857;
+  --color-secondary: #d4a94e;
+  --color-secondaryDark: #a77b24;
+
+  --color-main: #07130f;
+  --color-card: #10231b;
+  --color-input: #13291f;
+  --color-bprimary: #254534;
+  --color-bsecondary: #365c46;
+
+  --color-danger: #ef4444;
+  --color-success: #34d399;
+
+  --color-theading: #f8faf8;
+  --color-tprimary: #e5eee8;
+  --color-tsecondary: #bdcec2;
+  --color-tmuted: #82998b;
+
+  --color-grayDark: #17241c;
+  --color-grayMedium: #34483a;
+  --color-grayBase: #64756a;
+  --color-grayLight: #d1ddd4;
+
+  --color-overlay: rgb(0 0 0 / 45%);
+  --color-overlay2: rgb(0 0 0 / 72%);
+
+  --font-inter: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-xl2: 1.5rem;
+  --text-xl3: 2rem;
+  --text-xl4: 2.75rem;
+  --text-xl5: 3.5rem;
+}
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f8faf8;
+  background: #07130f;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #07130f;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #d4a94e;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #07130f;
+  background: #d4a94e;
+}
+
+.stadium-background {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgb(16 185 129 / 13%), transparent 55%),
+    linear-gradient(180deg, #07130f 0%, #0b1a13 55%, #07130f 100%);
+}
+
+.glass-panel {
+  border: 1px solid rgb(148 163 184 / 12%);
+  background: rgb(16 35 27 / 88%);
+  box-shadow: 0 20px 60px rgb(0 0 0 / 20%);
+  backdrop-filter: blur(16px);
+}
+
+.gold-text {
+  color: #e8c16d;
+}
+
+.field-pattern {
+  background-image:
+    linear-gradient(rgb(255 255 255 / 2%) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 2%) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+@keyframes score-pop {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.88);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.score-pop {
+  animation: score-pop 350ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* Additional cricket-game animations — preserves existing styles */
+
+@keyframes cricket-pulse {
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+.cricket-pulse {
+  animation: cricket-pulse 0.7s ease-in-out infinite;
+}
+
+@keyframes cricket-number {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.85);
+  }
+  65% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cricket-number {
+  animation: cricket-number 0.65s ease-out;
+}
+
+@keyframes cricket-result {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.cricket-result {
+  animation: cricket-result 0.35s ease-out;
+}
+
+@keyframes cricket-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cricket-fade-in {
+  animation: cricket-fade-in 0.25s ease-out;
+}
+
+/* Add these classes only to the shot-selection buttons. */
+.shot-power-button {
+  position: relative;
+  isolation: isolate;
+  transition:
+    box-shadow 0.25s ease,
+    border-color 0.25s ease,
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.shot-power-active {
+  border-color: #d4a94e !important;
+  background-color: rgb(212 169 78 / 16%) !important;
+  color: #f8faf8 !important;
+  box-shadow:
+    0 0 0 1px rgb(212 169 78 / 45%),
+    0 0 12px rgb(212 169 78 / 35%),
+    0 0 28px rgb(212 169 78 / 22%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cricket-pulse,
+  .cricket-number,
+  .cricket-result,
+  .cricket-fade-in {
+    animation: none;
+  }
+}
+
+
+
+/* Dedicated scoreboard colors — does not change global theme */
+
+.scoreboard-footer {
+  background: linear-gradient(
+    90deg,
+    rgb(240 242 233 / 98%) 0%,
+    rgb(255 255 255 / 98%) 50%,
+    rgb(231 237 230 / 98%) 100%
+  ) !important;
+
+  color: #15251b !important;
+  border-top: 2px solid rgb(255 255 255 / 65%);
+  box-shadow: 0 -5px 25px rgb(0 0 0 / 25%);
+}
+
+/* Keep scoreboard text readable on the light background */
+.scoreboard-footer .text-\[\#16281C\],
+.scoreboard-footer .text-\[\#15251B\],
+.scoreboard-footer .text-\[\#14271B\],
+.scoreboard-footer .text-\[\#10291B\] {
+  color: #15251b !important;
+}
+
+.scoreboard-footer .text-\[\#506056\],
+.scoreboard-footer .text-\[\#647168\],
+.scoreboard-footer .text-\[\#617266\],
+.scoreboard-footer .text-\[\#8C9A8F\] {
+  color: #647168 !important;
+}
+
+.scoreboard-footer .text-\[\#087842\] {
+  color: #087842 !important;
+}
+
