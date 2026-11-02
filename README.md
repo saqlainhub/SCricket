@@ -46,13 +46,13 @@ Whether you want a quick match or a customized cricket challenge, SCricket gives
 
 <div align="center">
 
-| Home Screen | Match Setup |
+| Home Screen | Gameplay |
 |:---:|:---:|
-| <img src="screenshots/home.png" width="400" alt="Home Screen" /> | <img src="screenshots/settings.png" width="400" alt="Match Setup" /> |
+| <img src="home page.png" width="400" alt="Home Screen" /> | <img src="play.png" width="400" alt="Match Setup" /> |
 
-| Gameplay | Match Scoreboard |
+| Settings | Setup & Preview |
 |:---:|:---:|
-| <img src="screenshots/gameplay.png" width="400" alt="Gameplay" /> | <img src="screenshots/scoreboard.png" width="400" alt="Match Scoreboard" /> |
+| <img src="setting.png" width="400" alt="Gameplay" /> | <img src="preview.png" width="400" alt="Match Scoreboard" /> |
 
 </div>
 
