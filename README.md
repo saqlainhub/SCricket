@@ -41,21 +41,21 @@ Whether you want a quick match or a customized cricket challenge, SCricket gives
 - 🔄 **Replay Matches** — Start another match with your preferred settings.
 - 📱 **Responsive Design** — Optimized for desktop and mobile screens.
 
-## 🖥️ Screenshots
 
-<!-- Add your project screenshots here -->
+## 🖥️ Screenshots
 
 <div align="center">
 
 | Home Screen | Match Setup |
 |:---:|:---:|
-| Add home screen screenshot | Add settings screenshot |
+| <img src="screenshots/home.png" width="400" alt="Home Screen" /> | <img src="screenshots/settings.png" width="400" alt="Match Setup" /> |
 
 | Gameplay | Match Scoreboard |
 |:---:|:---:|
-| Add gameplay screenshot | Add scoreboard screenshot |
+| <img src="screenshots/gameplay.png" width="400" alt="Gameplay" /> | <img src="screenshots/scoreboard.png" width="400" alt="Match Scoreboard" /> |
 
 </div>
+
 
 ## 🛠️ Tech Stack
 
