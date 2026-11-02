@@ -16,7 +16,7 @@ A modern, interactive cricket game where you can customize your match, choose yo
 
 <br/>
 
-**[Explore Repository](https://github.com/saqlainhub/SCricket)**
+**[🌐 Visit SCricket Website](https://scricket.vercel.app)**
 
 </div>
 
