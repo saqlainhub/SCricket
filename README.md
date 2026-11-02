@@ -1,91 +1,86 @@
-# 💻 SaqlainHub
 
-### Engineering Ideas Into Intelligent Solutions.
+<div align="center">
 
-A personal portfolio showcasing my work, technical expertise, projects, and services in Full Stack Software Engineering and AI Engineering. Explore my development journey, technical capabilities, selected projects, and approach to building modern software applications.
+# 🏏 SCricket
 
-<br/>
+### Your Cricket. Your Match. Your Rules.
 
-![Next.js](https://img.shields.io/badge/Next.js-React%20Framework-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-UI%20Development-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-Type%20Safety-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Styling-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)
+A modern, interactive cricket game where you can customize your match, choose your players, set your gameplay preferences, and experience cricket your way.
 
 <br/>
 
-**[🌐 Visit Portfolio](YOUR_LIVE_WEBSITE_URL)**
+![React](https://img.shields.io/badge/React-2026-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-Fast%20Builds-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+
+<br/>
+
+**[Explore Repository](https://github.com/saqlainhub/SCricket)**
+
+</div>
 
 ---
 
-## 💻 About SaqlainHub
+## 🎮 About SCricket
 
-SaqlainHub is my personal portfolio website, built to showcase my identity as a Full Stack Software Engineer and AI Engineer.
+SCricket is a browser-based cricket game designed to bring a customizable cricket experience to your screen.
 
-It brings together my technical expertise, development projects, engineering services, and professional journey in one place.
+Instead of playing with fixed settings, you can configure your own match, select your batting and bowling lineups, adjust gameplay preferences, and take control of the match.
 
-The portfolio reflects my focus on building modern web applications, AI-powered solutions, and intelligent software systems while maintaining a clean, responsive, and user-friendly experience.
+Whether you want a quick match or a customized cricket challenge, SCricket gives you the flexibility to play your way.
 
 ## ✨ Features
 
-- 🎨 **Modern Interface** — Clean, minimal, and professional design.
-- 🌓 **Dark & Light Theme** — Switch between themes with saved user preferences.
-- 📱 **Responsive Design** — Adapted for desktop, tablet, and mobile screens.
-- 👨‍💻 **About Section** — Introduction, background, and development journey.
-- 🛠️ **Technical Expertise** — Overview of my technologies and engineering capabilities.
-- 🤖 **AI Engineering Services** — Showcase of AI-powered solutions and intelligent systems.
-- 💻 **Full Stack Development** — Presentation of modern application development services.
-- 🚀 **Projects Showcase** — Selected software and AI development projects.
-- 🔄 **Software Development Lifecycle** — Overview of my software development process.
-- 📬 **Contact Section** — A dedicated space for professional inquiries and collaboration.
-- ⚡ **Smooth Navigation** — Navigation across portfolio sections and pages.
+- 🏟️ **Immersive Game Interface** — A cricket-inspired stadium experience.
+- ⚙️ **Custom Match Setup** — Configure overs, wickets, and target score.
+- 👥 **Custom Player Names** — Personalize batting and bowling lineups.
+- 🎯 **Gameplay Settings** — Choose difficulty and batting style.
+- 🏏 **Interactive Gameplay** — Play and control match actions.
+- 📊 **Live Match Scoreboard** — Follow your match progress.
+- 🔄 **Replay Matches** — Start another match with your preferred settings.
+- 📱 **Responsive Design** — Optimized for desktop and mobile screens.
+
 
 ## 🖥️ Screenshots
 
 <div align="center">
 
-<!-- Add your actual screenshots to the public/screenshots folder -->
-
-| Homepage | About Section |
+| Home Screen | Match Setup |
 |:---:|:---:|
-| <img src="public/screenshots/homepage.png" width="400" alt="Portfolio Homepage" /> | <img src="public/screenshots/about.png" width="400" alt="About Section" /> |
+| <img src="home page.png" width="400" alt="Home Screen" /> | <img src="play.png" width="400" alt="Play" /> |
 
-| Services | Projects |
+| Gameplay | Match Scoreboard |
 |:---:|:---:|
-| <img src="public/screenshots/services.png" width="400" alt="Services Section" /> | <img src="public/screenshots/projects.png" width="400" alt="Projects Section" /> |
-
-| Expertise | SDLC |
-|:---:|:---:|
-| <img src="public/screenshots/expertise.png" width="400" alt="Technical Expertise" /> | <img src="public/screenshots/sdlc.png" width="400" alt="Software Development Lifecycle" /> |
+| <img src="setting.png" width="400" alt="Settings" /> | <img src="preview.png" width="400" alt="Preview" /> |
 
 </div>
+
 
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| Next.js | React framework and application routing |
-| React | Component-based user interface |
-| TypeScript | Type-safe development |
-| Tailwind CSS | Styling and responsive layouts |
-| CSS | Custom styling and theme implementation |
-| Vercel | Deployment and hosting |
-| Git & GitHub | Version control and source code management |
+| React | User interface |
+| Vite | Development server and build tool |
+| JavaScript | Game logic and interactivity |
+| Tailwind CSS / Utility Classes | Styling and responsive layouts |
+| React Icons | Interface icons |
 
 ## 🚀 Getting Started
 
-Follow these steps to run SaqlainHub locally.
+Follow these steps to run SCricket locally.
 
-### 1. Clone Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/saqlainhub/SaqlainHub-Potfolio.git
+git clone https://github.com/saqlainhub/SCricket.git
 ```
 
-### 2. Navigate to Project
+### 2. Navigate to the Project
 
 ```bash
-cd SaqlainHub-Potfolio
+cd SCricket
 ```
 
 ### 3. Install Dependencies
@@ -100,37 +95,48 @@ npm install
 npm run dev
 ```
 
-Open the following URL in your browser:
+### 5. Open in Browser
+
+Visit the local URL provided by Vite, usually:
 
 ```text
-http://localhost:3000
+http://localhost:5173
 ```
 
-### 5. Build for Production
+## 📦 Build for Production
+
+To create a production-ready build:
 
 ```bash
 npm run build
 ```
 
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
 ## 🎯 Project Goals
 
-SaqlainHub aims to provide:
+SCricket aims to provide:
 
-- A professional platform to showcase my engineering capabilities.
-- A central place to present my software and AI projects.
-- A clear overview of my technical expertise and services.
-- A responsive and accessible user experience.
-- A professional online presence for networking and collaboration.
+- A simple and enjoyable cricket gaming experience.
+- Flexible match customization.
+- An intuitive and interactive interface.
+- A responsive experience across different screen sizes.
+- A foundation for future gameplay improvements.
 
 ## 🔮 Future Improvements
 
-Potential improvements for the portfolio include:
+Some ideas for future development:
 
-- More interactive project demonstrations.
-- Additional case studies explaining project architecture and implementation.
-- Enhanced project filtering and categorization.
-- More detailed technical documentation.
-- Continuous UI/UX and performance improvements.
+- More advanced batting and bowling mechanics.
+- Additional match formats.
+- Enhanced player statistics.
+- Match history and saved results.
+- Sound effects and stadium atmosphere.
+- Multiplayer functionality.
 
 ## 👨‍💻 Developer
 
@@ -139,16 +145,15 @@ Potential improvements for the portfolio include:
 Full Stack Software Engineer & AI Engineer
 
 - GitHub: [@saqlainhub](https://github.com/saqlainhub)
-- Portfolio: [SaqlainHub](YOUR_LIVE_WEBSITE_URL)
 
 ---
 
 <div align="center">
 
-### 💻 Thanks for visiting SaqlainHub!
+### 🏏 Thanks for checking out SCricket!
 
-If you find this project interesting, consider giving it a ⭐ on GitHub.
+If you like this project, consider giving it a ⭐ on GitHub.
 
-**Built with passion for software engineering and AI.**
+**Built with passion for cricket and code.**
 
 </div>
