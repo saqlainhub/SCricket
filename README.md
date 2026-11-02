@@ -16,7 +16,7 @@ A modern, interactive cricket game where you can customize your match, choose yo
 
 <br/>
 
-**[🌐 Visit SCricket Website](https://scricket.vercel.app)**
+**[🌍 View Live Website](https://scricket.vercel.app)**
 
 </div>
 
@@ -67,55 +67,13 @@ Whether you want a quick match or a customized cricket challenge, SCricket gives
 | Tailwind CSS / Utility Classes | Styling and responsive layouts |
 | React Icons | Interface icons |
 
-## 🚀 Getting Started
+## 🚀 Live Demo
 
-Follow these steps to run SCricket locally.
+The project was deployed using Vercel.
 
-### 1. Clone the Repository
+<text></text>
 
-```bash
-git clone https://github.com/saqlainhub/SCricket.git
-```
-
-### 2. Navigate to the Project
-
-```bash
-cd SCricket
-```
-
-### 3. Install Dependencies
-
-```bash
-npm install
-```
-
-### 4. Start Development Server
-
-```bash
-npm run dev
-```
-
-### 5. Open in Browser
-
-Visit the local URL provided by Vite, usually:
-
-```text
-http://localhost:5173
-```
-
-## 📦 Build for Production
-
-To create a production-ready build:
-
-```bash
-npm run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
+**Live Website:** https://scricket.vercel.app
 
 ## 🎯 Project Goals
 
