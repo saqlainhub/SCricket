@@ -12,7 +12,7 @@ import {
   FiZap,
 } from "react-icons/fi";
 import { GiCricketBat } from "react-icons/gi";
-import groundImage from "../assets/img1.jpg";
+import groundImage from "../assets/img4.jpg";
 import {
   createInitialMatch,
   playDelivery as resolveDelivery,
@@ -835,7 +835,7 @@ export default function Play({ config, goHome, replayMatch }) {
       </main>
 
       {/* Bottom scoreboard */}
-      <footer className="relative z-20 grid h-[clamp(100px,15vh,145px)] shrink-0 grid-cols-[minmax(0,1fr)_minmax(76px,.58fr)_minmax(0,1fr)] border-t border-white/10 bg-gray-900 text-[#F8FAF8] shadow-[0_-5px_25px_rgba(0,0,0,.35)] backdrop-blur-xl sm:grid-cols-[minmax(0,1.2fr)_minmax(175px,.8fr)_minmax(0,1.2fr)]">
+      <footer className="relative z-20 grid h-[clamp(100px,15vh,145px)] shrink-0 grid-cols-[minmax(0,1fr)_minmax(76px,.58fr)_minmax(0,1fr)] border-t border-white/10 bg-gray-950 text-[#F8FAF8] shadow-[0_-5px_25px_rgba(0,0,0,.35)] backdrop-blur-xl sm:grid-cols-[minmax(0,1.2fr)_minmax(175px,.8fr)_minmax(0,1.2fr)]">
         <section className="flex min-w-0 flex-col justify-center gap-2 border-r border-[#3f3f38] px-1.5 py-1.5 sm:gap-3 sm:px-5 sm:py-2">
           {[striker, nonStriker].map((batter, index) => {
             const isStriker = index === 0;
